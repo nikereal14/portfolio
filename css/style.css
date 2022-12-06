@@ -1,0 +1,62 @@
+* {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.heading {
+    border-bottom: 2px solid purple;
+    margin-left: 35px;
+}
+
+.projectsNav {
+    transition-duration: 0.7s;
+}
+
+.projectsNav:hover {
+    color: purple;
+}
+
+.aboutMeMain {
+    margin-left: 25px; 
+    margin-top: 20px; 
+    height: 335px; 
+    width: 550px; 
+    background-color: #e8e8e8; 
+    border-radius: 20px; 
+    border: 1px solid purple;
+}
+
+.whatILearned {
+    padding-left: 40px;
+    margin-right: 10px; 
+    margin-top: 20px; 
+}
+
+.avatar {
+    border-radius: 50%; 
+    height: 150px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border: 1px solid black;
+}
+
+.asdasd {
+    font-weight: lighter;
+}
+
+.languages {
+    -webkit-text-stroke-width: 0.01px;
+    -webkit-text-stroke-color: black;
+}
+
+li {
+    margin-top: 13px;
+}
+
+.img {
+    transition-duration: 0.7s;
+}
+
+.img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}

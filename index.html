@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Моё портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" style="display: flex; border-bottom: 1px dashed grey;">
+        <a style="text-decoration: none; color: black;" href="./index.html"><h1 class="heading" style="width: 173px;">Dekaien Portfolio</h1></a>
+        <nav>
+            <a style="text-decoration: none; color: black;" href="#html5"><h3 class="projectsNav" style="margin-left: 120px; margin-top: 48px;">HTML5</h3></a>
+        </nav>
+    </header>
+
+    <main style="display: flex;">
+        <article class="aboutMeMain">
+            <section style="display: flex; height: 200px; border-bottom: 1px dashed purple; border-radius: 20px;">
+                <img class="avatar" src="./img/avatar.jpeg" alt="">
+                <h2 style="margin-left: 65px; margin-top: 45px;">Dmitriy Tarasov<br><span style="font-weight: lighter; font-size: 14px; margin-left: 40px;">nickname: dekaien</span><br><span style="font-weight: lighter; font-size: 14px; margin-left: 35px;">telegram: @nikeeee1</span><br><span style="font-weight: lighter; font-size: 14px; margin-left: 53px;">github: <a style="text-decoration: none;" target="_blank" href="https://github.com/nikereal14">*click*</a></span></h2>
+            </section>
+
+            <section>
+                <h1 style="margin-top: 10px; margin-left: 210px; font-size: 25px"">Обо мне:</h1>
+                <p style="margin-left: 10px; margin-right: 10px;">Привет! Меня зовут Дима и мне нравится программировать.</p>
+            </section>
+
+            <section style="margin-top: 70px; border: 1px solid purple; background-color: #e4e4e4; border-radius: 20px;">
+                <h1 style="font-size: 25px; margin-left: 195px;">Мои проекты:</h1>
+            </section>
+
+            <section style="border: 1px solid purple; height: 270px; width: 550px; margin-top: 25px; background-color: #e4e4e4; border-radius: 20px;" class="projects">
+                <a target="_blank" href="https://nikereal14.github.io/kinopoisk"><img class="img" style="width: 100%; border-radius: 20px;" src="./img/kinopoisk.png" alt=""></a>
+            </section>
+
+            <section style="border: 1px solid purple; width: 550px; margin-top: 25px; background-color: #e4e4e4; border-radius: 20px; margin-bottom: 150px;" class="projects">
+                <a target="_blank" href="https://nikereal14.github.io/course-homework"><img class="img" style="width: 100%; border-radius: 20px;" src="./img/clothing store.png" alt=""></a>
+            </section>
+
+        </article>
+
+        <article class="whatILearned">
+            <section style="display: flex; height: 85px; width: 700px; border: 1px solid purple; background-color: #e4e4e4; border-radius: 20px;">
+                <h1 style="font-size: 25px; margin-left: 215px;">Чему я научился:</h1>
+            </section>
+
+            <section style="margin-top: 25px; width: 700px; border: 1px solid purple; background-color: #e4e4e4; border-radius: 20px;">
+                <div style="height: 83px; width: 100%; border-bottom: 1px dashed purple; border-radius: 20px;">
+                    <h1 id="html5" class="languages" style="font-size: 40px; padding-left: 285px; color: red; font-weight: bolder;">HTML5</h1>
+                </div>
+                <ol style="margin-top: 25px;">
+                    <li>Узнал что такое DOM-дерево. DOM - объектная модель документа.</li>
+                    <li>Узнал как состоит базовая структура страницы.</li>
+                    <li>Узнал что такое атрибуты. Атрибуты позволяют расширять возможности тегов и гибко управлять отображением элементов на странице.</li>
+                    <li>Узнал что такое семантическая верстка. Семантическая вёрстка - подход к разметке, который опирается не на содержание сайта, а на смысловое предназначение каждого блока и логическую структуру документа.</li>
+                    <li>Узнал как работать с текстом, изображениями и ссылками.</li>
+                    <li>Узнал какие виды списков существуют.<br>Неупорядоченный - маркированный список.<br>Упорядоченный - нумерованный список.</li>
+                    <li>Узнал что такое якорь. Якорь используется для перехода к определенной части той же страницы.</li>
+                </ol>
+            </section>
+        </article>
+
+    </main>
+</body>
+</html>
